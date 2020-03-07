@@ -1,0 +1,25 @@
+name: 'Dev-box'
+author: Jakub Bednarski
+description: 'Pinnable dynamic Gist with your latest Dev.to post.'
+
+inputs:
+  GH_TOKEN:
+    description: 'GitHub access token with Gist scope'
+    required: true
+
+  GIST_ID:
+    description: 'The ID of Gist to update'
+    required: true
+
+  DEVTO_USERNAME:
+    description: 'Your Dev.to username'
+    required: true
+
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'bookmark'
+  color: 'black'
