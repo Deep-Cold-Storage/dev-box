@@ -1,4 +1,5 @@
 <p align="center">
+  <img width="500" src="example.png" alt="Example Gist">
   <h3 align="center">Dev-Box</h3>
   <p align="center">Pinnable dynamic Gist with your latest Dev.to post!</p>
 </p>
