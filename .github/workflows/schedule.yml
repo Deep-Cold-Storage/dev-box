@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Update latest post from Dev.to
-        uses: rangerdigital/dev-box@master
+      - name: Dev.to-box
+        uses: RangerDigital/dev-box@1.0
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
